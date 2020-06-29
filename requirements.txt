@@ -1,0 +1,6 @@
+Django==2.2.8
+
+#
+# Black Duck recommends upgrading to v3
+#
+# Django==3
