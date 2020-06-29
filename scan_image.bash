@@ -1,6 +1,6 @@
 #!/bin/bash
 
-run_detect --detect.tools=DOCKER \
+run_detect --detect.tools.exclude=DETECTOR \
 	--detect.docker.image="${1}" \
 	--detect.project.name="${2}" \
 	--detect.project.version.name="${3}" \
