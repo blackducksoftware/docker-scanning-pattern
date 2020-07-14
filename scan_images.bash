@@ -46,7 +46,7 @@ run_detect --detect.tools.exclude=DETECTOR \
 	--logging.level.com.synopsys.integration=INFO
 
 #
-# Add analysis of a python 3.8 with a python app
+# Add analysis of a python 3.8 with a python app and using the top layer feature
 #
 run_detect --detect.tools.exclude=DETECTOR \
 	--detect.docker.image=python383-with-app:1.0 \

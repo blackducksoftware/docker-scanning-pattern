@@ -1,6 +1,6 @@
 Django==2.2.8
 
 #
-# Black Duck recommends upgrading to v3
+# Black Duck recommends upgrading to v3.1b1 but I found 3.08 had 0 vulns and went with that one
 #
-# Django==3
+# Django==3.08
