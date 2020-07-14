@@ -1,0 +1,7 @@
+#!/bin/bash
+
+bash <(curl -s -L https://detect.synopsys.com/detect.sh) --detect.parallel.processors=-1 \
+	--blackduck.url=<INSERT-YOUR-BD-HUB-URL-HERE> \
+	--blackduck.trust.cert=true \
+	--blackduck.api.token=<INSERT-YOUR-API-USER-TOKEN-HERE> \
+	$*
